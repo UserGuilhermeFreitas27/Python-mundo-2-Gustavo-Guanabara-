@@ -8,7 +8,7 @@ n2 = int(input('Digite o segundo numero: '))
 
 if n1 > n2:
     print('O numero {} é o maior numero.'.format(n1))
-if n2 > n1:
+elif n2 > n1:
     print('O numero {} é o maior numero.'.format(n2))
-if n1 == n2:
+else:
     print('Não existe numero maior, os dois são iguais.')
